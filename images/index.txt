@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Pets</title>
+  <link rel="stylesheet" href="style/norma.css">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  
+  <header>
+    <img class="logo" src="images/1.jpg" alt="Логотип">
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="#section2">О питомнике</a></li>
+        <li class="nav__item"><a class="nav__link" href="#section3">Животные</a></li>
+        <li class="nav__item"><a class="nav__link" href="#section4">Отзывы</a></li>
+        <li class="nav__item"><a class="nav__link" href="#section5">Блог</a></li>
+        <li class="nav__item"><a class="nav__link" href="#section6">Контакты</a></li>
+      </ul>
+    </nav>
+    <a class="tel" href="tel:89252569877">+7(925)256-98-77</a>
+  </header>
+  
+  <main>
+    <section class="section1">
+      <h1 class="main__title">Питомник породистых животных рядом с вашим домом</h1>
+      <span class="slogan">Животные как дети - им нужны мы.</span>
+    </section>
+    
+    <section id="section2" class="section2">
+      <h2 class="section__title-white">О питомнике</h2>
+      <p class="section2__text">Наш питомник - не просто дом для животных, а семья из разных пород собак и кошек.</p>
+      <img class="section2__img" src="images/2.jpg" alt="Веселье, свежий воздух">
+      <div class="section2__wrap">
+        <ul class="section2__list">
+          <li class="section2__item">Лучшие представители своей породы</li>
+          <li class="section2__item">Сбалансированный рацион питания питомца</li>
+          <li class="section2__item">Ежедневный уход и тренировка</li>
+          <li class="section2__item">Веселье, свежий воздух и отличная компания</li>
+        </ul>
+        <a class="section2__link" href="#">Видео с наших прогулок</a>
+      </div>
+    </section>
+    
+    <section id="section3" class="section3">
+      <h2 class="section__title">Наши породы</h2>
+      
+      <article class="article">
+        <h3 class="article__title">Французский бульдог</h3>
+        <figure class="article__figure">
+          <img class="article__img" src="images/3.jpg" alt="Французский бульдог">
+          <figcaption class="article__figcapt">
+            <p class="article__text">Идеальный вариант городской собаки - они входят в тройку самых популярных собак на планете. Любят короткие прогулки и хорошо поспать.</p>
+            <a class="article__link" href="#">Посмотреть щенков</a>
+          </figcaption>
+        </figure>
+      </article>
+      
+      <article class="article">
+        <h3 class="article__title">Золотистый ретривер</h3>
+        <figure class="article__figure">
+          <img class="article__img" src="images/5.jpg" alt="Золотистый ретривер">
+          <figcaption class="article__figcapt">
+            <p class="article__text">Добродушные, ориентированные на людей собаки. Они отлично ведут себя с детьми и больными. Могут быть повардырями.</p>
+            <a class="article__link" href="#">Посмотреть щенков</a>
+          </figcaption>
+        </figure>
+      </article>
+
+      <article class="article">
+        <h3 class="article__title">Чау-чау</h3>
+        <figure class="article__figure">
+          <img class="article__img" src="images/4.jpg" alt="Чау-чау">
+          <figcaption class="article__figcapt">
+            <p class="article__text">Эти собаки с характером. Они всегда серьезны, но временами проявляют характер.</p>
+            <a class="article__link" href="#">Посмотреть щенков</a>
+          </figcaption>
+        </figure>
+      </article>
+
+      <article class="article">
+        <h3 class="article__title">Пудель</h3>
+        <figure class="article__figure">
+          <img class="article__img" src="images/6.jpg" alt="Пудель">
+          <figcaption class="article__figcapt">
+            <p class="article__text">Активные и компанейские собаки. Любят много гулять, обладают отличным чувством юмора.</p>
+            <a class="article__link" href="#">Посмотреть щенков</a>
+          </figcaption>
+        </figure>
+      </article>
+    </section>
+    
+    <section id="section4" class="section4">
+      <h2 class="section__title">Отзывы хозяев</h2>
+      
+      <div class="section4__wrap1">
+        <h3 class="section4__subtitle">Татьяна Зверева</h3>
+        <time class="section4__time" datetime="2018-02-27">27.02.2018</time>
+        <p class="section4__text">Хочу выразить большую благодарность Вам за это чудо - малыша, который появился у нас в семье. Деликатный, милый, ласковый и нежный белоснежный Уник, в которого я влюбилась с первого взгляда, увидев его фотографию на сайте Вашего питомника. Очень умный малыш!</p>
+      </div>
+      
+      <div class="wrap2">
+        <img class="section4__img" src="images/7.jpg" alt="Отзывы хозяев в Вк">
+        <br>
+        <span class="section4__excerpt">Больше отзывов можно найти у нас в <a class="section4__link" href="https://vk.com/topic-166537407_41021587">группе Вк</a></span>
+      </div>
+    </section>
+    
+    <section id="section5" class="section5">
+      <div class="section5__wrap">
+        <h2 class="section__title-white">Все о животных</h2>
+        <p class="section5__text">Мы ведем активный блог про наших жиотных в социальных сетях - присоединяйтесь к нам. Полезные материалы про обучение, дрессировку, питание.</p>
+    
+        <ul class="socials__list">
+          <li class="socials__item"><a class="socials__link" href="https://vk.com/epixx_pets"></a></li>
+          <li class="socials__item"><a class="socials__link" href="#"></a></li>
+          <li class="socials__item"><a class="socials__link" href="#"></a></li>
+        </ul>
+      </div>
+
+    <div class="section5__box">
+      <img src="image/8.jpg" alt="Правильный рацион для взрослого пса">
+      <span class="section5__span">Правильный рацион для взрослого пса</span>
+      <a class="section5__link" href="https://vk.com/@epixx_pets-diet-for-adult-dog" target="_blank">Читать статью</a>
+    </div>
+    
+    <div class="section5__box">
+      <img src="image/9.jpg" alt="Бывает ли собачья депрессия">
+      <span class="section5__span">Бывает ли собачья депрессия</span>
+      <a class="section5__link" href="https://vk.com/@epixx_pets-dogs-depression" target="_blank">Читать статью</a>
+    </div>
+    </section>
+    
+    <section id="section6" class="section6">
+      <h2 class="section__title">Контакты</h2>
+        <h3 class="section6__subtitle">Адрес</h3>
+        <span class="section6__text">г. Санкт-Петербург, ул. Кирочная 61</span>
+        
+        <h3 class="section6__subtitle">Режим работы</h3>
+        <span class="section6__text">Каждый день с 10.00 до 22.00</span>
+        
+        <h3 class="section6__subtitle">E-mail</h3>
+        <span class="section6__text">petshelp@pets.ru</span>
+        
+        <h3 class="section6__subtitle">Телефон</h3>
+        <span class="section6__text">+7 (925) 256 78 96</span>
+        <span class="section6__text">Мы принимаем звонки с 10.00 до 21.00</span>
+    </section>
+  </main>
+  
+  <footer>
+    
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="#section2">О питомнике</a></li>
+        <li class="nav__item"><a class="nav__link" href="#section3">Животные</a></li>
+        <li class="nav__item"><a class="nav__link" href="#section4">Отзывы</a></li>
+        <li class="nav__item"><a class="nav__link" href="#section5">Блог</a></li>
+        <li class="nav__item"><a class="nav__link" href="#section6">Контакты</a></li>
+      </ul>
+    </nav>
+    
+    <ul class="socials__list">
+      <li class="socials__item"><a class="socials__link" href="https://vk.com/epixx_pets"></a></li>
+      <li class="socials__item"><a class="socials__link" href="#"></a></li>
+      <li class="socials__item"><a class="socials__link" href="#"></a></li>
+    </ul>
+  </footer>
+</body>
+</html>
