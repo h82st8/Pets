@@ -52,6 +52,12 @@ body {
 
   text-decoration: none;
   color: #202020;
+
+  transition: 0.3s;
+}
+
+.nav__link:hover {
+  color: #510fad;
 }
 
 .tel {
@@ -61,6 +67,12 @@ body {
 
   text-decoration: none;
   color: #510fad;
+
+  transition: 0.3s;
+}
+
+.tel:hover {
+  color: #202020;
 }
 
 .main__title {
@@ -198,11 +210,31 @@ body {
   letter-spacing: 0.5px;
   color: #fff;
   text-align: left;
+
+  list-style: none;
 }
+
+.about__item:before {
+  content: '';
+  display: inline-block;
+
+  margin-right: 15px;
+
+  width: 7px;
+  height: 7px;
+
+  vertical-align: middle;
+
+  border-radius: 50%;
+
+  background-color: white;
+}
+
+
 
 .about__link {
   margin-bottom: 65px;
-  margin-left: -115px;
+  margin-left: -100px;
 
   text-decoration: none;
   color: #ffec00;
@@ -215,13 +247,27 @@ body {
 .about__link:after {
   content: '';
   display: inline-block;
-  width: 30px;
+  width: 40px;
   height: 14px;
 
   background-image: url(../images/arrow_next.png);
   background-repeat: no-repeat;
   background-position-x: 10px;
   vertical-align: middle;
+}
+
+.about__link:hover:after {
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 14px;
+
+  background-image: url(../images/arrow_next.png);
+  background-repeat: no-repeat;
+  background-position-x: 20px;
+  vertical-align: middle;
+
+  transition: 0.3s;
 }
 
 .breeds {
@@ -296,13 +342,27 @@ body {
   content: '';
   display: inline-block;
 
-  width: 30px;
+  width: 40px;
   height: 14px;
 
   background-image: url(../images/arrow_next1.png);
   background-repeat: no-repeat;
   background-position-x: 10px;
   vertical-align: middle;
+}
+
+.article__link:hover:after {
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 14px;
+
+  background-image: url(../images/arrow_next1.png);
+  background-repeat: no-repeat;
+  background-position-x: 20px;
+  vertical-align: middle;
+
+  transition: 0.3s;
 }
 
 .opinions {
@@ -376,6 +436,12 @@ body {
 .opinions__link {
   color: #510fad;
   text-decoration: none;
+
+  transition: 0.1s;
+}
+
+.opinions__link:hover {
+    color: #202020;
 }
 
 .blog__container {
@@ -448,13 +514,27 @@ body {
   content: '';
   display: inline-block;
 
-  width: 30px;
+  width: 40px;
   height: 14px;
 
   background-image: url(../images/arrow_next1.png);
   background-repeat: no-repeat;
   background-position-x: 10px;
   vertical-align: middle;
+}
+
+.blog__link:hover:after {
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 14px;
+
+  background-image: url(../images/arrow_next1.png);
+  background-repeat: no-repeat;
+  background-position-x: 20px;
+  vertical-align: middle;
+
+  transition: 0.3s;
 }
 
 .block__inner {
@@ -501,30 +581,43 @@ body {
   margin-right: 3px;
 
   vertical-align: middle;
+
+  transition: 0.3s;
+}
+
+.socials__link:hover {
+  transform: scale(0.9);
 }
 
 .socials__link1 {
-  background-image: url(../images/social-icon-vk.png);
+  background-image: url(../images/sprite.png);
+  background-position-x: 26px;
 }
 
 .socials__link2 {
-  background-image: url(../images/social-icon-facebook.png);
+  background-image: url(../images/sprite.png);
 }
 
 .socials__link3 {
-  background-image: url(../images/social-icon-instagram.png);
+  background-image: url(../images/sprite.png);
+  background-position-y: 26px;
 }
 
 .socials__link4 {
-  background-image: url(../images/social-icon-vk1.png);
+  background-image: url(../images/sprite.png);
+  background-position-x: 26px;
+  background-position-y: 26px;
 }
 
 .socials__link5 {
-  background-image: url(../images/social-icon-facebook1.png);
+  background-image: url(../images/sprite.png);
+  background-position-x: 52px;
 }
 
 .socials__link6 {
-  background-image: url(../images/social-icon-instagram1.png);
+  background-image: url(../images/sprite.png);
+  background-position-x: 52px;
+  background-position-y: 26px;
 }
 
 .contacts {
@@ -547,6 +640,10 @@ body {
   display: block;
 }
 
+.contacts__tel:hover, .contacts__mail:hover {
+  color: #510fad;
+}
+
 .footer {
   display: flex;
 
@@ -563,6 +660,11 @@ body {
 }
 .nav__item-link {
   color: #737274;
+  transition: 0.3s;
+}
+
+.nav__item-link:hover {
+  color: #202020;
 }
 
 .nav__list {
